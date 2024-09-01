@@ -8,6 +8,8 @@ public class Car extends Vehicle{
 
     //default constructor
     public Car() {
+        super();
+        brand = null;
     }
 
     public String getBrand() {
